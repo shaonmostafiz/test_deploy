@@ -162,4 +162,5 @@ def update_data_view(fileName, colName, colValue): #updates view of the data bas
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    # app.run_server(debug=True)
+    app.run(host='0.0.0.0', port='8080')
