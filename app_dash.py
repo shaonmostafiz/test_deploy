@@ -6,10 +6,10 @@ import pandas as pd
 app = Dash(__name__,external_stylesheets=[dbc.themes.COSMO])
 
 #------------Data-----------
-wlp_ground_truth_df = pd.read_csv('data\\wlp.csv')
+wlp_ground_truth_df = pd.read_csv('data/wlp.csv')
 wlp_ground_truth_df = wlp_ground_truth_df.drop(['Unnamed: 0'],axis=1)
 
-twas_df = pd.read_csv('data\\twas.csv')
+twas_df = pd.read_csv('data/twas.csv')
 twas_df = twas_df.drop(['Unnamed: 0'],axis=1)
 
 
