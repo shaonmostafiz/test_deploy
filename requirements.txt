@@ -1,0 +1,10 @@
+numpy
+pandas
+drain3
+jupyterlab
+argparse
+plotly
+dash_bootstrap_components
+dash
+re
+pathlib
